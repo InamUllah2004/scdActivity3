@@ -14,7 +14,7 @@ pipeline {
 
         string(
             name: 'STUDENT_NAME',
-            defaultValue: 'your name',
+            defaultValue: 'Muhammad Inam Ullah',
             description: 'Muhammad Inam Ullah'
         )
 
