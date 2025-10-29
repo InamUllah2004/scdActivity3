@@ -15,7 +15,7 @@ pipeline {
         string(
             name: 'STUDENT_NAME',
             defaultValue: 'your name',
-            description: 'Provide your name here (no name, no marks)'
+            description: 'Muhammad Inam Ullah'
         )
 
         choice(
