@@ -95,6 +95,8 @@ pipeline {
         }
         success {
             echo "Pipeline succeeded! Version ${APP_VERSION} built and tested."
+            echo "Built by student: ${params.STUDENT_NAME}"
+
         }
         failure {
             echo "Pipeline failed! Check console output for details."
